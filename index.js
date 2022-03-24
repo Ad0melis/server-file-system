@@ -1,1 +1,12 @@
-console.log('mama');
+import { file } from "./lib/file.js";
+
+const petras = {
+    name: 'Petras'
+}
+const status = await file.create('users', 'petras.json', petras)
+console.log(status);
+
+file.create()
+file.read()
+file.update()
+file.delete()
