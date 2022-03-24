@@ -1,4 +1,16 @@
 {
+  "name": "git-opp-extends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Adomas",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.15"
   }
