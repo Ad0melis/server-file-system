@@ -2,10 +2,11 @@
   "name": "36-grupe-file-system",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.js",  
   "type": "module",
   "scripts": {
     "dev": "nodemon",
+    "letter": "nodemon ./letter.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
